@@ -1,0 +1,162 @@
+/* =============== CLASS SELECTORS ================ */
+
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  text-align: center;
+
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1 {
+  color: #4cd3c2;
+  font-family: 'Sacramento', cursive;
+  font-size: 6rem;
+  margin: 50px auto 0 auto;
+
+}
+
+h2 {
+  color: #4cd3c2;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #FF5678;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: #f3e1e1;
+  border-width: 5px;
+  height: 0;
+  margin: 100px auto 100px auto;
+  width: 8%;
+}
+
+/* =============== CLASS SELECTORS ================ */
+
+
+/* CONTAINERS ______________________________ */
+
+.top-container {
+  background-color: #faeee7;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #ffffff;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  line-height: 3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.contact-me {
+  line-height: 2;
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+/* TEXT ________________________________ */
+
+.copyright {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.bottom-container a {
+  margin: 40px;
+}
+
+/* IMAGES ______________________________ */
+
+.header-img {
+  width: 50%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.top-scribble {
+  position: absolute;
+  width: 200px;
+  right: 200px;
+  top: 100px;
+}
+
+.bottom-scribble {
+  position: absolute;
+  width: 200px;
+  left: 200px;
+  bottom: 500px;
+}
+
+.profile img {
+  border-radius: 100%;
+  width: 200px;
+  padding: 40px;
+}
+
+.skill-1 {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.skill-2 {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+/* BUTTON ________________________________ */
+
+.btn {
+  background: #66BFBF;
+  background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+  background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+  background-image: linear-gradient(to bottom, #66BFBF, #11999E);
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  border-radius: 11px;
+  height: 11px;
+  line-height: 11px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  width: 118px;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 16px;
+  text-shadow: 1px 1px 20px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
